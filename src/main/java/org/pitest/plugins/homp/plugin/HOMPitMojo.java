@@ -1,4 +1,4 @@
-package org.pitest.plugins.homp;
+package org.pitest.plugins.homp.plugin;
 
 import org.apache.maven.plugins.annotations.LifecyclePhase;
 import org.apache.maven.plugins.annotations.Mojo;
