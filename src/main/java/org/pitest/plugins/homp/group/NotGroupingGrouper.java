@@ -11,8 +11,8 @@ import java.util.List;
 public class NotGroupingGrouper implements MutationGrouper {
 
     public List<List<MutationDetails>> groupMutations(Collection<ClassName> codeClasses, Collection<MutationDetails> mutations) {
-        List<MutationDetails> singleton = new ArrayList<MutationDetails>(mutations);
-        List<List<MutationDetails>> groupedMutations = new ArrayList<List<MutationDetails>>(1);
+        List<MutationDetails> singleton = new ArrayList<>(mutations);
+        List<List<MutationDetails>> groupedMutations = new ArrayList<>(1);
         groupedMutations.add(singleton);
 
         return groupedMutations;

@@ -1,4 +1,4 @@
-package org.pitest.plugins.homp;
+package org.pitest.plugins.homp.build;
 
 import org.pitest.mutationtest.engine.MutationIdentifier;
 
